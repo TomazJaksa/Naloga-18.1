@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{%block title%}{%endblock title%}</title>
+	<!-- CSS datoteka-->
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<!--GOOGLE FONT-->
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Text+Me+One" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	
+	<header>
+		<h1>Homework 18.1: Homepage</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="/about"> About</a></li>
+			<li><a href="/myProjects">My projects</a></li>
+			<li><a href="/blog">Blog</a></li>
+			<li><a href="/contact">Contact</a></li>
+		</ul>	
+	</nav>
+	
+	<main>
+	{%block content%}
+	
+	{%endblock content%}
+	</main>
+
+	<footer>
+		Copyright © 2008-2016 Totaly-legit-firm d.o.o.. Vse pravice pridržane. 
+	</footer>
+</body>
+</html>
